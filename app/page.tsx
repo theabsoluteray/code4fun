@@ -38,6 +38,12 @@ export default function Home() {
             </div>
 
             {/* CTA Buttons */}
+            <button type="button" className="inline-block px-6 py-3 bg-primary/40 hover:bg-primary/100 text-white font-semibold rounded-lg shadow-md transition-colors">
+              Get Started
+            </button>
+            <button type="button" className="ml-10 pl-4 inline-block px-6 py-3 bg-accent/40 hover:bg-accent/100 text-white font-semibold rounded-lg shadow-md transition-colors">
+              Learn More
+            </button>
             <div className="flex gap-4 pt-4">
             </div>
           </div>
@@ -57,7 +63,7 @@ export default function Home() {
 
         {/* Features Section */}
         <div className="grid md:grid-cols-3 gap-6 mt-24 pt-24 border-t border-border/40">
-          <div className="space-y-3 p-6 rounded-xl border border-border/40 bg-card/50 hover:border-border/80 transition-colors">
+          <div className="space-y-3 p-6 rounded-xl border border-white/10 bg-card/50 hover:border-white/100 transition-colors">
             <div className="text-3xl">🚀</div>
             <h3 className="font-semibold text-lg">Innovative</h3>
             <p className="text-sm text-foreground/60">Cutting-edge projects and ideas</p>
