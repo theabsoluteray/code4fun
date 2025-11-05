@@ -6,9 +6,7 @@ import { X } from "lucide-react"
 export default function Home() {
   const [showTeam, setShowTeam] = useState(false)
 
-  const teamMembers = [
-    { id: 1, name: "ray", role: "Just a random person" }
-  ]
+
 
   return (
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
@@ -98,18 +96,6 @@ export default function Home() {
               </button>
             </div>
 
-            {/* Team Members Grid */}
-            <div className="p-6 grid gap-4">
-              {teamMembers.map((member) => (
-                <div
-                  key={member.id}
-                  className="p-4 rounded-lg border border-border/40 bg-background/50 hover:border-border/80 hover:bg-background transition-colors"
-                >
-                  <h3 className="font-semibold text-lg text-primary">{member.name}</h3>
-                  <p className="text-sm text-foreground/60 mt-1">{member.role}</p>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       )}
